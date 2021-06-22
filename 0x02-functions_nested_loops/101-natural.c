@@ -34,7 +34,7 @@ length += 1;
 return (length);
 }
 /**
- *putnchar - Print a number of any any digit
+*putnchar - Print a number of any any digit
 *@num : takes an input number
 *
 *
@@ -56,6 +56,7 @@ for (k = j; k > 0 ; k--)
 _putchar(48);
 }
 j = -1;
+}
 else
 {
 digit1 = num / powB(10, j);
