@@ -36,8 +36,6 @@ return (length);
 /**
 *putnchar - Print a number of any any digit
 *@num : takes an input number
-*
-*
 */
 void putnchar(int num)
 {
@@ -74,11 +72,11 @@ j--;
 }
 }
 /**
-* sumr - returns the sum of numbers from start to end with step steps
+*sumr - returns the sum of numbers from start to end with step steps
 * @start: the first number
-* @end: the last number
+*@end: the last number
 *@step:the number of  steps
-* Return: sum
+*Return: sum
 */
 int sumr(int start, int end, int step)
 {
@@ -90,9 +88,9 @@ sum += i;
 return (sum);
 }
 /**
-* main - prints the sum of all numbers under 1024
-* that are divisible by 3 or 5
-* Return: 0
+*main - prints the sum of all numbers under 1024
+*that are divisible by 3 or 5
+*Return: 0
 */
 int main(void)
 {
