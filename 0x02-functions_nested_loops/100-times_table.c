@@ -89,6 +89,7 @@ for (j = 0; j <= n; j++)
 prod = i * j;
 putnchar(prod);
 if (j != n)
+{
 _putchar(',');
 for (m = 0; m < 4 - numLength(i * (j + 1)); m++)
 {
